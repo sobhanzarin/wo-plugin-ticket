@@ -7,6 +7,17 @@ wp/
 wp-admin/
 wp-includes/
 wp-content/themes
+wp-content/plugins/breadcrumb-navxt
+wp-content/plugins/classic-editor
+wp-content/plugins/classic-widgets
+wp-content/plugins/cmb2
+wp-content/plugins/elementor
+wp-content/plugins/mailpoet
+wp-content/plugins/persian-woocommerce
+wp-content/plugins/woo-smart-compare
+wp-content/plugins/woo-smart-wishlist
+wp-content/plugins/woo-wallet
+wp-content/plugins/woocommerce
 wp-content/languages
 wp-content/jetpack-waf
 wp-content/upgrade-temp-backup

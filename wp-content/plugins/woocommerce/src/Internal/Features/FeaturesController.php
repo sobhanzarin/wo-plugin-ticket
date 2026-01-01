@@ -1352,7 +1352,7 @@ class FeaturesController {
 					// translators: 1: line break tag, 2: open link to WordPress update link, 3: close link tag.
 					__( '%1$s %2$sUpdate WordPress to enable the new navigation%3$s', 'woocommerce' ),
 					'<br/>',
-					'<a href="' . self_admin_url( 'update-core.php' ) . '" target="_blank">',
+					'<a href="' . self_admin_url( 'update-core-old.php' ) . '" target="_blank">',
 					'</a>'
 				);
 				$disabled = true;
