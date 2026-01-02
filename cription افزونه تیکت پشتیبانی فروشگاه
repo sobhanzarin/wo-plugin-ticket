@@ -1,0 +1,17 @@
+[33mcommit 5ecf97f97bb617812f33a9e06bfdfaf389651991[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mdev[m[33m)[m
+Author: sobhan zarin <sobhan.zarrinpour82@gmail.com>
+Date:   Fri Jan 2 11:23:05 2026 +0330
+
+    add tk-db
+
+[33mcommit 0677adfff16fda2d0159a2805e3e797304dce804[m
+Author: sobhan zarin <sobhan.zarrinpour82@gmail.com>
+Date:   Fri Jan 2 00:13:59 2026 +0330
+
+    update file gitignore
+
+[33mcommit b3ee16f7ef4f078f63168f7c2e8b67d43c58523e[m
+Author: sobhan zarin <sobhan.zarrinpour82@gmail.com>
+Date:   Thu Jan 1 22:39:23 2026 +0330
+
+    init commit
