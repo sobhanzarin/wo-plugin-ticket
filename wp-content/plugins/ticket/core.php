@@ -16,6 +16,7 @@
 defined('ABSPATH') || exit('No Access !!!');
 
 require 'inc/tk-assets.php';
+require 'inc/tk-db.php';
 
 class Core
 {
@@ -46,8 +47,8 @@ class Core
     }
     public function constanst()
     {
-        if (!function_exists('get_plugin_data')){
-            require_once(ABSPATH.'wp-admin/includes/plugin.php');
+        if(!function_exists('get_plugin_data')){
+            require_once(ABSPATH . 'wp-admin/includes/plugin.pgp');
         }
         define('TK_BASE_FILE', __FILE__);
         define('TK_PATH', trailingslashit(plugin_dir_path(TK_BASE_FILE)));
@@ -60,6 +61,7 @@ class Core
     }
     public function active()
     {
+        TK_Db::create_table();
 
     }
     public function deactive()
